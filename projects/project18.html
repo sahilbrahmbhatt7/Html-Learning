@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Accessibility Portfolio Pro</title>
+
+<meta
+name="description"
+content="Accessible Developer Portfolio">
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header role="banner">
+
+<h1 id="top">
+
+Sahil Portfolio
+
+</h1>
+
+<p>
+
+Future Java Full Stack Developer
+
+</p>
+
+</header>
+
+<hr>
+
+<!-- NAVIGATION -->
+
+<nav
+role="navigation"
+aria-label="Main Navigation">
+
+<a href="#about" tabindex="1">
+
+About
+
+</a>
+
+<a href="#skills" tabindex="2">
+
+Skills
+
+</a>
+
+<a href="#projects" tabindex="3">
+
+Projects
+
+</a>
+
+<a href="#contact" tabindex="4">
+
+Contact
+
+</a>
+
+</nav>
+
+<hr>
+
+<!-- MAIN -->
+
+<main role="main">
+
+<!-- ABOUT -->
+
+<section id="about">
+
+<h2>
+
+About Me
+
+</h2>
+
+<article>
+
+<p>
+
+Hello, I am
+
+<strong>Sahil</strong>
+
+and learning
+
+<mark>Java Full Stack Development</mark>.
+
+</p>
+
+</article>
+
+</section>
+
+<hr>
+
+<!-- PROFILE IMAGE -->
+
+<section>
+
+<h2>
+
+Profile
+
+</h2>
+
+<figure>
+
+<img
+src="profile.jpg"
+alt="Sahil Developer Profile Picture"
+width="250">
+
+<figcaption>
+
+Developer Profile
+
+</figcaption>
+
+</figure>
+
+</section>
+
+<hr>
+
+<!-- SKILLS -->
+
+<section id="skills">
+
+<h2>
+
+Skills
+
+</h2>
+
+<ul>
+
+<li>HTML</li>
+
+<li>CSS</li>
+
+<li>JavaScript</li>
+
+<li>Java</li>
+
+<li>Spring Boot</li>
+
+</ul>
+
+</section>
+
+<hr>
+
+<!-- ACCESSIBLE FORM -->
+
+<section>
+
+<h2 id="form-title">
+
+Contact Form
+
+</h2>
+
+<form>
+
+<label for="name">
+
+Name
+
+</label>
+
+<br>
+
+<input
+id="name"
+type="text"
+aria-labelledby="form-title"
+required>
+
+<br><br>
+
+<label for="email">
+
+Email
+
+</label>
+
+<br>
+
+<input
+id="email"
+type="email"
+aria-label="Email Address"
+required>
+
+<br><br>
+
+<label for="message">
+
+Message
+
+</label>
+
+<br>
+
+<textarea
+id="message"
+rows="5"
+cols="40"
+aria-label="Message">
+
+</textarea>
+
+<br><br>
+
+<input
+type="submit"
+value="Send Message">
+
+</form>
+
+</section>
+
+<hr>
+
+<!-- ACCESSIBLE BUTTON -->
+
+<section>
+
+<h2>
+
+Actions
+
+</h2>
+
+<button
+aria-label="Download Resume">
+
+Download Resume
+
+</button>
+
+</section>
+
+<hr>
+
+<!-- PROJECTS -->
+
+<section id="projects">
+
+<h2>
+
+Projects
+
+</h2>
+
+<table border="1">
+
+<tr>
+
+<th>Project</th>
+
+<th>Status</th>
+
+</tr>
+
+<tr>
+
+<td>Portfolio</td>
+
+<td>Completed</td>
+
+</tr>
+
+<tr>
+
+<td>Job Portal</td>
+
+<td>Completed</td>
+
+</tr>
+
+</table>
+
+</section>
+
+<hr>
+
+<!-- ASIDE -->
+
+<aside
+role="complementary">
+
+<h3>
+
+Quick Tips
+
+</h3>
+
+<ul>
+
+<li>Practice Daily</li>
+
+<li>Build Projects</li>
+
+<li>Upload on GitHub</li>
+
+</ul>
+
+</aside>
+
+<hr>
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+<h2>
+
+Contact Information
+
+</h2>
+
+<address>
+
+Ahmedabad
+
+<br>
+
+Gujarat
+
+<br>
+
+India
+
+</address>
+
+<br>
+
+<a
+href="mailto:sahil@gmail.com"
+aria-label="Send Email">
+
+Email Me
+
+</a>
+
+</section>
+
+</main>
+
+<hr>
+
+<a href="#top">
+
+Go To Top
+
+</a>
+
+<hr>
+
+<footer role="contentinfo">
+
+<p>
+
+&copy; 2026 Sahil Portfolio
+
+</p>
+
+<time datetime="2026-06-06">
+
+June 6, 2026
+
+</time>
+
+</footer>
+
+</body>
+
+</html>

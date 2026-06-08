@@ -1,0 +1,359 @@
+Module 1 Interview Questions & Answers (With Answers)
+1. HTML ka full form kya hai?
+
+Answer:
+HTML ka full form HyperText Markup Language hai.
+
+HyperText = Pages ko connect karna
+Markup = Tags ke through structure banana
+2. Kya HTML programming language hai?
+
+Answer:
+Nahi.
+
+HTML ek Markup Language hai.
+
+HTML logic perform nahi karti.
+
+Programming languages:
+
+Java
+JavaScript
+Python
+
+HTML sirf structure banati hai.
+
+3. HTML kisne banaya?
+
+Answer:
+
+Tim Berners-Lee
+
+ne 1991 me HTML create kiya.
+
+Unhone World Wide Web (WWW) bhi invent kiya.
+
+4. HTML5 kya hai?
+
+Answer:
+
+HTML5 HTML ka latest standard version hai.
+
+Features:
+
+Audio
+Video
+Canvas
+SVG
+Semantic Tags
+Better Forms
+5. HTML aur HTML5 me difference?
+HTML	HTML5
+Old Version	Latest Version
+No Audio	Audio Support
+No Video	Video Support
+No Semantic Tags	Semantic Tags
+Limited Forms	Advanced Forms
+6. <!DOCTYPE html> kya hai?
+
+Answer:
+
+DOCTYPE browser ko batata hai ki document HTML5 hai.
+
+Syntax:
+
+<!DOCTYPE html>
+
+Ye hamesha first line me likha jata hai.
+
+7. Root Element konsa hai?
+
+Answer:
+
+<html>
+
+Ye pura HTML document contain karta hai.
+
+Example:
+
+<html>
+
+</html>
+8. Head aur Body me difference?
+Head	Body
+Metadata	Visible Content
+User ko nahi dikhta	User ko dikhta
+title, meta	h1, p, img
+
+Example:
+
+<head>
+<title>Amazon</title>
+</head>
+
+<body>
+<h1>Hello</h1>
+</body>
+9. Title Tag ka use kya hai?
+
+Answer:
+
+Browser tab me text display karta hai.
+
+Example:
+
+<title>Amazon</title>
+
+Output:
+
+Browser Tab
+
+Amazon
+
+SEO ke liye bhi important hai.
+
+10. Comment ka syntax kya hai?
+
+Answer:
+
+<!-- Comment -->
+
+Example:
+
+<!-- Header Section -->
+
+Comments browser me visible nahi hote.
+
+Advanced Fresher Questions
+11. Browser HTML ko kaise read karta hai?
+
+Answer:
+
+Steps:
+
+Browser HTML file receive karta hai
+HTML Parser file read karta hai
+DOM Tree banata hai
+Page render karta hai
+12. Agar DOCTYPE na likhe to kya hoga?
+
+Answer:
+
+Browser Quirks Mode me ja sakta hai.
+
+Result:
+
+Layout issues
+CSS problems
+Different browser behavior
+
+Isliye DOCTYPE likhna important hai.
+
+13. Head section me kaun-kaun se tags hote hain?
+
+Answer:
+
+Common tags:
+
+<title>
+<meta>
+<link>
+<style>
+<script>
+14. Body section me kya hota hai?
+
+Answer:
+
+User ko jo content dikhta hai.
+
+Example:
+
+<h1>
+<p>
+<img>
+<table>
+<form>
+15. HTML document ka basic structure draw karo.
+
+Answer:
+
+Document
+
+├── DOCTYPE
+
+├── html
+
+│   ├── head
+
+│   └── body
+16. Metadata kya hota hai?
+
+Answer:
+
+Metadata means:
+
+"Data about data"
+
+Example:
+
+<meta charset="UTF-8">
+<meta name="description" content="HTML Course">
+
+Ye user ko visible nahi hota.
+
+17. Title Tag SEO me kyu important hai?
+
+Answer:
+
+Search engine page ka title samajhta hai.
+
+Google search result me title show hota hai.
+
+Example:
+
+<title>Best HTML Tutorial</title>
+18. HTML file extension kya hoti hai?
+
+Answer:
+
+.html
+
+Example:
+
+index.html
+about.html
+contact.html
+19. HTML aur XHTML me difference?
+
+Answer:
+
+HTML flexible hai.
+
+XHTML strict rules follow karta hai.
+
+Example:
+
+HTML:
+
+<br>
+
+XHTML:
+
+<br />
+20. Current HTML standard konsa hai?
+
+Answer:
+
+HTML5
+
+Current modern web development HTML5 use karta hai.
+
+Placement Level Questions
+21. HTML Parser kya hota hai?
+
+Answer:
+
+Browser ka component jo HTML ko read karta hai.
+
+Parser:
+
+HTML
+
+↓
+
+DOM Tree
+
+↓
+
+Web Page
+22. Browser Rendering Process kya hai?
+
+Answer:
+
+Steps:
+
+HTML Parse
+
+↓
+
+DOM Tree
+
+↓
+
+CSS Parse
+
+↓
+
+Render Tree
+
+↓
+
+Layout
+
+↓
+
+Paint
+
+↓
+
+Display
+23. Character Encoding kya hai?
+
+Answer:
+
+Characters ko binary format me represent karne ka system.
+
+Example:
+
+A
+B
+C
+₹
+€
+
+Browser ko samajhne ke liye encoding use hoti hai.
+
+24. UTF-8 kya hai?
+
+Answer:
+
+UTF-8 most popular character encoding hai.
+
+Support karta hai:
+
+English
+Hindi
+Gujarati
+Chinese
+Emoji
+
+Example:
+
+<meta charset="UTF-8">
+25. DOM kya hota hai?
+
+Answer:
+
+DOM = Document Object Model
+
+Browser HTML ko objects/tree me convert karta hai.
+
+Example:
+
+<body>
+
+<h1>Hello</h1>
+
+<p>World</p>
+
+</body>
+
+DOM Tree:
+
+body
+
+├── h1
+
+└── p
+
+JavaScript DOM ko manipulate karti hai.

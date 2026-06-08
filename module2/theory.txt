@@ -1,0 +1,136 @@
+🚀 Module 2: Headings & Text
+
+Topics:
+
+h1-h6
+p
+br
+hr
+pre
+blockquote
+q
+abbr
+address
+25 THEORY INTERVIEW QUESTIONS (Module 2)
+h1-h6
+Q1. HTML me kitni heading tags hoti hain?
+
+A: 6 (h1 se h6)
+
+Q2. Sabse important heading tag?
+
+A: h1
+
+Q3. Sabse chhoti heading tag?
+
+A: h6
+
+Q4. SEO ke liye sabse important heading?
+
+A: h1
+
+Q5. Kya ek page me multiple h1 use kar sakte hain?
+
+A: Haan, lekin ideally 1 h1 use karna chahiye.
+
+p Tag
+Q6. Paragraph ke liye konsa tag use hota hai?
+
+A: p
+
+Q7. Paragraph block-level element hai?
+
+A: Haan
+
+Q8. Kya paragraph automatic new line leta hai?
+
+A: Haan
+
+br Tag
+Q9. br tag ka use kya hai?
+
+A: Line break dene ke liye.
+
+Q10. br tag closing tag leta hai?
+
+A: Nahi
+
+Q11. br kis type ka element hai?
+
+A: Void Element
+
+hr Tag
+Q12. hr tag ka use kya hai?
+
+A: Horizontal line/separator dikhane ke liye.
+
+Q13. hr closing tag leta hai?
+
+A: Nahi
+
+pre Tag
+Q14. pre tag ka purpose?
+
+A: Spaces aur formatting preserve karta hai.
+
+Q15. pre aur p me difference?
+
+A: pre formatting preserve karta hai, p nahi.
+
+blockquote
+Q16. blockquote ka use?
+
+A: Large quotation ke liye.
+
+Q17. blockquote block-level element hai?
+
+A: Haan
+
+q Tag
+Q18. q tag ka use?
+
+A: Short quotation ke liye.
+
+Q19. q aur blockquote me difference?
+
+A: q short quote, blockquote long quote.
+
+abbr
+Q20. abbr tag ka use?
+
+A: Abbreviation define karne ke liye.
+
+Q21. HTML ka abbreviation kaise likhenge?
+<abbr title="HyperText Markup Language">HTML</abbr>
+address
+Q22. address tag ka use?
+
+A: Contact information dikhane ke liye.
+
+Q23. address tag me kya likhte hain?
+
+A: Email, address, phone, author info.
+
+Mixed Questions
+Q24. Void Elements kya hote hain?
+
+A: Jinka closing tag nahi hota.
+
+Example:
+
+<br>
+<hr>
+Q25. Module 2 me kaunse tags Void Elements hain?
+
+A: br, hr
+
+
+✅ h1-h6
+✅ p
+✅ br
+✅ hr
+✅ pre
+✅ blockquote
+✅ q
+✅ abbr
+✅ address
